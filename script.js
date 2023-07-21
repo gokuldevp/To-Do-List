@@ -52,7 +52,7 @@ var updateTaskCount = () => {
 }
 
 
-var addtask = () => {
+var addTask = () => {
   /* Function to add a new task to the list based on the user input*/
 
   // Get the element that take user input
@@ -95,7 +95,7 @@ var checkUnCheckTask = (e) => {
 }
 
 // Add todo item when clicking on the Add button
-document.getElementById('addButton').addEventListener('click', addtask);
+document.getElementById('addButton').addEventListener('click', addTask);
 
 // Delete todo item when clicking on the Delete button
 document.getElementById('todoList').addEventListener('click', deleteTask);
