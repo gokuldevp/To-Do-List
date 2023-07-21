@@ -1,0 +1,82 @@
+/* Container for the todo list */
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 50px;
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+  background-color: red;
+}
+
+/* Styling for the heading */
+h1 {
+  text-align: center;
+}
+
+/* Styling for the input container */
+.input-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+/* Styling for the input box */
+#todoInput {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+/* Styling for the "Add" button */
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: rgb(24, 0, 245);
+  border: 1px solid #4CAF50;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+/* Styling for the todo list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Styling for individual todo items */
+li {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Remove border from the last todo item */
+li:last-child {
+  border-bottom: none;
+}
+
+/* Styling for the checkbox */
+.checkbox {
+  margin-right: 10px;
+}
+
+/* Styling for completed tasks */
+.checked {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Styling for the delete button */
+.delete {
+  margin-left: auto;
+  color: yellow;
+  cursor: pointer;
+}
+
+/* Styling for the task count */
+#taskCount {
+  text-align: center;
+  color: white;
+  text-shadow: #4CAF50;
+}
